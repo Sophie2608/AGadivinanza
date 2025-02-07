@@ -83,6 +83,3 @@ if st.session_state.index_adivinanza == len(adivinanzas) - 1 and not st.session_
         # Descargar la imagen desde la URL
         url = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Emoji_u1f60a.svg/1024px-Emoji_u1f60a.svg.png"
         response = requests.get(url)
-
-        # Mostrar la imagen
-        st.image(img, caption="¡Genio!")
